@@ -80,4 +80,5 @@ typings/
 # FuseBox cache
 .fusebox/
 
+.gitlock
 # End of https://www.gitignore.io/api/node
