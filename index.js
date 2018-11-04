@@ -73,13 +73,17 @@ async function compose(html) {
   let weights = await getWeights(links);
 
   let composed = [];
-  for (let i = 0; i < links.length; i++) {
+
+  // We're using the same index for the other two arrays
+  // because the collections are in-sync with each other
+  // And have the same length.
+  links.map((link, index) => {
     composed.push({
-      link: links[i],
-      price: prices[i],
-      weight: weights[i]
+      link,
+      price: prices[index],
+      weight: weights[index]
     });
-  }
+  })
 
   return composed;
 }
