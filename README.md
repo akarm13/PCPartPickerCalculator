@@ -1,4 +1,4 @@
-# PCPartPicker Shipping Cost Calculator
+# PCPartPicker Calculator
 
 
 This Node script will parse the items that you feed through an HTML file from PCPartPicker's `/list/` directory and then calculates the shipping cost based on the weight and the cost.
