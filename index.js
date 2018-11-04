@@ -1,5 +1,4 @@
 'use strict';
-
 const cheerio = require('cheerio');
 const rp = require('request-promise');
 const fs = require('fs');
@@ -25,6 +24,7 @@ function parseLinks(html) {
 function parsePrices(html) {
   let $ = cheerio.load(html);
 
+  // Remove the dollar sign so we can parse them to numbers.
   let prices = $('.tr.price.nowrap a').text().trim().split('$');
 
   // Remove the blank element at the beginning, since we split it
@@ -52,14 +52,18 @@ async function getWeight(url) {
 }
 
 async function getWeights(links) {
-  let weights = [];
-  for(const link of links) {
-    let weight = await getWeight(link);
-    weights.push(weight);
-    console.log(`${link} is done.`)
-  }
+  try {
+    let weights = links.map(async link => {
+      let weight = await getWeight(link);
+      console.log(`${link} is done.`);
+      return weight;
+    });
 
-  return weights;
+    // Improves the speed dramatically! since the requests aren't sequential anymore.
+    return await Promise.all(weights);
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 
@@ -83,6 +87,7 @@ async function compose(html) {
 
 compose(partsHtml).then(parts => {
   let total = 0;
+
   parts.map(part => {
     let totalCost = 0;
     if(part.weight.unit === 'ounces') {
