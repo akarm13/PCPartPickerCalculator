@@ -3,9 +3,15 @@ const cheerio = require('cheerio');
 const rp = require('request-promise');
 const fs = require('fs');
 const path = process.argv[2];
+const colors = require('colors/safe');
 
 const partsHtml = fs.readFileSync(path, 'utf8', (err, contents) => contents.trim())
 
+
+// let $ = cheerio.load(partsHtml);
+
+// let a = $('.manual-zebra tbody').find('tr .price.nowrap').siblings('.component-name.tl').text().trim();
+// console.log(a);
 function parseLinks(html) {
   let $ = cheerio.load(html);
 
@@ -55,7 +61,7 @@ async function getWeights(links) {
   try {
     let weights = links.map(async link => {
       let weight = await getWeight(link);
-      console.log(`${link} is done.`);
+      console.log(colors.yellow(`${link} is done.`));
       return weight;
     });
 
@@ -102,5 +108,7 @@ compose(partsHtml).then(parts => {
     total = totalCost + total;
   });
 
-  console.log(`Your total shipping cost is: $${Math.ceil(total)}`);
+  let shippingCostTxt = colors.cyan('Your total shipping cost is: ');
+  let priceTxt = colors.magenta(`$${colors.magenta(Math.ceil(total))}`);
+  console.log(shippingCostTxt + priceTxt);
 });

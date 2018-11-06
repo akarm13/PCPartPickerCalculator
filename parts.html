@@ -7,7 +7,7 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 
-    <title>System Builder - Ryzen 7 2700X 3.7GHz 8-Core, Radeon RX 580 8GB ARMOR OC, H500 (White) ATX Mid Tower - PCPartPicker</title>
+    <title>System Builder - Core i5-8600 3.1GHz 6-Core, GeForce GTX 1060 6GB 6GB SC GAMING - PCPartPicker</title>
 
     <meta name='description' content=''>
     <meta name='viewport' content='width=1280'>
@@ -30,7 +30,7 @@
 
     
     <link rel="stylesheet" type="text/css" href="//cdn.pcpartpicker.com/static/forever/hash/site-fa77dd6da8a918afe8f67485c403d3ff.css" />
-    <script type="text/javascript" src="//cdn.pcpartpicker.com/static/forever/hash/site-724404eba1c7b072ed38f9a38ce7d9d1.js"></script>
+    <script type="text/javascript" src="//cdn.pcpartpicker.com/static/forever/hash/site-853cf2a0009fdb925d9d09ba4c46f457.js"></script>
     
     
 
@@ -58,82 +58,26 @@
       
 
 
-var upp_ids = [];
+var upp_ids = ['5272436-d41d8cd98f00b204e9800998ecf8427e'];
 
 
   var upp_items = [
+    
+    {
+      id: 5272436,
+      url: '',
+      class_slug: '',
+      price: '50.00',
+      description: "Case",
+      purchased: false
+    }
     
   ];
   var obj_data = [
     
     {
-      index: 7,
-      identifier: '{"base_id":171628}',
-      custom_price: {
-        
-          mode: 'preferred'
-        
-      },
-      inventory: [
-        
-      ]
-    },
-    
-    {
-      index: 1,
-      identifier: '{"base_id":51984}',
-      custom_price: {
-        
-          mode: 'preferred'
-        
-      },
-      inventory: [
-        
-      ]
-    },
-    
-    {
-      index: 2,
-      identifier: '{"base_id":187824}',
-      custom_price: {
-        
-          mode: 'preferred'
-        
-      },
-      inventory: [
-        
-      ]
-    },
-    
-    {
-      index: 6,
-      identifier: '{"base_id":51105}',
-      custom_price: {
-        
-          mode: 'preferred'
-        
-      },
-      inventory: [
-        
-      ]
-    },
-    
-    {
       index: 5,
-      identifier: '{"base_id":12266}',
-      custom_price: {
-        
-          mode: 'preferred'
-        
-      },
-      inventory: [
-        
-      ]
-    },
-    
-    {
-      index: 4,
-      identifier: '{"base_id":103578}',
+      identifier: '{"base_id":169304}',
       custom_price: {
         
           mode: 'preferred'
@@ -146,7 +90,20 @@ var upp_ids = [];
     
     {
       index: 0,
-      identifier: '{"base_id":177627}',
+      identifier: '{"base_id":169160}',
+      custom_price: {
+        
+          mode: 'preferred'
+        
+      },
+      inventory: [
+        
+      ]
+    },
+    
+    {
+      index: 4,
+      identifier: '{"base_id":124827}',
       custom_price: {
         
           mode: 'preferred'
@@ -159,7 +116,33 @@ var upp_ids = [];
     
     {
       index: 3,
-      identifier: '{"base_id":69893}',
+      identifier: '{"base_id":12266}',
+      custom_price: {
+        
+          mode: 'preferred'
+        
+      },
+      inventory: [
+        
+      ]
+    },
+    
+    {
+      index: 2,
+      identifier: '{"base_id":53829}',
+      custom_price: {
+        
+          mode: 'preferred'
+        
+      },
+      inventory: [
+        
+      ]
+    },
+    
+    {
+      index: 1,
+      identifier: '{"base_id":111220}',
       custom_price: {
         
           mode: 'preferred'
@@ -179,40 +162,41 @@ $(document).ready(function(){
   init_partlist_custom_dialog(upp_items);
   
   
-  init_partlist_save_dialog('us', 'tVppWD');
-  init_partlist_incompatibility_dialog('tVppWD');
+  init_partlist_save_dialog('us', 'rf8TD2');
+  init_partlist_incompatibility_dialog('rf8TD2');
   
   init_partlist_wattage_dialog();
   
-  init_partlist_markup_dialog('tVppWD', '');
+  init_partlist_markup_dialog('rf8TD2', '');
   
   init_partlist_price_dialog(obj_data);
   
   init_partlist_history_dialog();
 
   var request_data = {
-    'products': '171628,51984,187824,51105,12266,103578,177627,69893'
+    'products': '169304,169160,124827,12266,53829,111220'
   }
   var product_name_map = {
     
-    171628: "AMD \u002D Ryzen 7 2700X 3.7GHz 8\u002DCore Processor",
+    169304: "Intel \u002D Core i5\u002D8600 3.1GHz 6\u002DCore Processor",
     
-    51984: "Corsair \u002D H100i v2 70.7 CFM Liquid CPU Cooler",
+    169160: "Gigabyte \u002D B360M DS3H Micro ATX LGA1151 Motherboard",
     
-    187824: "MSI \u002D B450 TOMAHAWK ATX AM4 Motherboard",
-    
-    51105: "G.Skill \u002D Ripjaws V Series 16GB (2 x 8GB) DDR4\u002D3200 Memory",
+    124827: "Patriot \u002D Viper Elite 8GB (2 x 4GB) DDR4\u002D2400 Memory",
     
     12266: "Western Digital \u002D Caviar Blue 1TB 3.5\u0022 7200RPM Internal Hard Drive",
     
-    103578: "MSI \u002D Radeon RX 580 8GB ARMOR OC Video Card",
+    53829: "EVGA \u002D GeForce GTX 1060 6GB 6GB SC GAMING Video Card",
     
-    177627: "NZXT \u002D H500 (White) ATX Mid Tower Case",
-    
-    69893: "EVGA \u002D SuperNOVA G3 550W 80+ Gold Certified Fully\u002DModular ATX Power Supply"
+    111220: "Corsair \u002D CX (2017) 450W 80+ Bronze Certified ATX Power Supply"
     
   };
   var upps = [
+    
+    {
+      description: "Custom Part",
+      amount: 5000,
+    }
     
   ];
   async_load_partlist_price_history_v2('#price_history', '$', request_data, product_name_map, upps, false, '#price_history_legend');
@@ -252,7 +236,7 @@ $(document).ready(function(){
           
             <li>
               <form method="post" action="/qapi/switch_country/" id="form_country_select">
-              <input type='hidden' name='csrfmiddlewaretoken' value='EYI4Kh9h7AryskykUSSe3CAUxVxOjEyDLECzdtwB7WfTEFurHTfOV98WjgI49hAX' />
+              <input type='hidden' name='csrfmiddlewaretoken' value='RvdJopQZlrMMUAXt1x2ygr6FrVPimYSLYb7eRBdjlNA76VTAOyp88YEHdg0ycBU5' />
               <select id="country_select" class="language-selector flag-us" name="cc">
                 
                 
@@ -412,7 +396,7 @@ $(document).ready(function(){
             
             <div class="permalink-markup-social">
               <div class="part-list-permalink">
-                Permalink: <input type="text" value="https://pcpartpicker.com/list/tVppWD" onclick="this.select()" />
+                Permalink: <input type="text" value="https://pcpartpicker.com/list/rf8TD2" onclick="this.select()" />
               </div>
               <div class="markup-block">
                 Markup:
@@ -425,15 +409,15 @@ $(document).ready(function(){
                 </ul>
               </div>
               <!-- <ul class="part-list-social-buttons">
-                <li><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fpcpartpicker.com%2Flist%2FtVppWD&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=20&amp;appId=111980575534750" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:20px;width:50px;" allowTransparency="true"></iframe></li>
-                <li><a href="https://twitter.com/share" class="twitter-share-button" data-text="System Builder" data-count="none" data-via="PCPartPicker" data-url="https://pcpartpicker.com/list/tVppWD">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
+                <li><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fpcpartpicker.com%2Flist%2Frf8TD2&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=20&amp;appId=111980575534750" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:20px;width:50px;" allowTransparency="true"></iframe></li>
+                <li><a href="https://twitter.com/share" class="twitter-share-button" data-text="System Builder" data-count="none" data-via="PCPartPicker" data-url="https://pcpartpicker.com/list/rf8TD2">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
               </ul> -->
             </div>
             <div class="wattage-actions">
               
               <div class="part-list-action single-action est-wattage">
                 
-                  <a id="explain_wattage" href="#explain_wattage">409W</a>
+                  <a id="explain_wattage" href="#explain_wattage">270W</a>
                 
               </div>
               
@@ -469,7 +453,7 @@ $(document).ready(function(){
 
     
       
-        <p class="compat-message compat-message-note"><span>Compatibility Check:</span> See <a href="#incompatibilities">notes</a> below.</p>
+        <p class="compat-message compat-message-ok"><span>Compatibility Check:</span> No issues/incompatibilities found.</p>
       
     
 
@@ -523,11 +507,11 @@ $(document).ready(function(){
       
       <tr class="last zebra">
         <td class="component-type tl"><a href="/products/cpu/">CPU</a></td>
-        <td class="component-image"><a href="/product/bddxFT/amd-ryzen-7-2700x-37ghz-8-core-processor-yd270xbgafbox" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/4e84967ef18c9b42e543b58c836d73ef.256p.jpg" class=""></a></td>
+        <td class="component-image"><a href="/product/XMTPxr/intel-core-i5-8600-31ghz-6-core-processor-bx80684i58600" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/51Zk%2BGui2hL.jpg" class=""></a></td>
         <td class="component-name tl">
           <div>
             
-              <a href="/product/bddxFT/amd-ryzen-7-2700x-37ghz-8-core-processor-yd270xbgafbox">AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</a>
+              <a href="/product/XMTPxr/intel-core-i5-8600-31ghz-6-core-processor-bx80684i58600">Intel - Core i5-8600 3.1GHz 6-Core Processor</a>
             
             
           </div>
@@ -535,7 +519,7 @@ $(document).ready(function(){
         </td>
        
         
-        <td class="tr nowrap"><a href="/mr/amazon/bddxFT" rel="nofollow" target="_blank">$309.89</a></td>
+        <td class="tr nowrap"><a href="/mr/amazon/XMTPxr" rel="nofollow" target="_blank">$233.87</a></td>
         <td class="tc nowrap"></td>
         <td class="tc nowrap">
           
@@ -546,16 +530,16 @@ $(document).ready(function(){
         </td>
         <td class="tr nowrap"></td>
         
-        <td class="tr price nowrap"><a href="/mr/amazon/bddxFT" rel="nofollow" target="_blank">$309.89</a></td>
+        <td class="tr price nowrap"><a href="/mr/amazon/XMTPxr" rel="nofollow" target="_blank">$233.87</a></td>
         
-        <td class="merchant"><a href="/mr/amazon/bddxFT" rel="nofollow" target="_blank">Amazon</a></td>
+        <td class="merchant"><a href="/mr/amazon/XMTPxr" rel="nofollow" target="_blank">Amazon</a></td>
         
        
         
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_7"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_5"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -563,13 +547,13 @@ $(document).ready(function(){
         
         <td class="nowrap">
           
-          <a href="/mr/amazon/bddxFT" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          <a href="/mr/amazon/XMTPxr" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
           
         </td>
         
         
         <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:171628}'); return false;"></a></div>
+          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:169304}'); return false;"></a></div>
         </td>
         
       </tr>
@@ -591,72 +575,24 @@ $(document).ready(function(){
       
     
       
-      <!-- item -->
 
       
+
+      
+
+      
+
+      
+      <!-- choose -->
+
       <tr class="last">
         <td class="component-type tl"><a href="/products/cpu-cooler/">CPU Cooler</a></td>
-        <td class="component-image"><a href="/product/CrDzK8/corsair-cpu-cooler-cw9060025ww" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/41-BYBaR2wL.jpg" class=""></a></td>
-        <td class="component-name tl">
-          <div>
-            
-              <a href="/product/CrDzK8/corsair-cpu-cooler-cw9060025ww">Corsair - H100i v2 70.7 CFM Liquid CPU Cooler</a>
-            
-            
-          </div>
-          
-        </td>
-       
-        
-        <td class="tr nowrap"><a href="/mr/amazon/CrDzK8" rel="nofollow" target="_blank">$94.99</a></td>
-        <td class="tc nowrap"></td>
-        <td class="tc nowrap">
-          
-            
-              <a href="https://amazon.com/tryprimefree?tag=pcpp-prime-20"><img src="/static/forever/img/amazon-prime.png" alt="Free two-day shipping with Amazon Prime" class="amazon-prime" /></a>
-            
-          
-        </td>
-        <td class="tr nowrap"></td>
-        
-        <td class="tr price nowrap"><a href="/mr/amazon/CrDzK8" rel="nofollow" target="_blank">$94.99</a></td>
-        
-        <td class="merchant"><a href="/mr/amazon/CrDzK8" rel="nofollow" target="_blank">Amazon</a></td>
-        
-       
-        
-        <td class="price-settings">
-          
-          
-          <a class="change-price" href="#change_price" id="change_price_1"><span class="no-custom-price"></span></a>
-          
-          
-        </td>
-        
-        
-        <td class="nowrap">
-          
-          <a href="/mr/amazon/CrDzK8" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
-          
-        </td>
-        
-        
-        <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:51984}'); return false;"></a></div>
-        </td>
-        
+        <td></td>
+        <td><a href="/products/cpu-cooler/" class="btn-mds">Choose A CPU Cooler</a></td>
+        <td colspan="9"></td>
       </tr>
-      
 
-      <!-- end item -->
-      
-
-      
-
-      
-
-      
-
+      <!-- end choose -->
       
 
       
@@ -669,11 +605,11 @@ $(document).ready(function(){
       
       <tr class="last zebra">
         <td class="component-type tl"><a href="/products/motherboard/">Motherboard</a></td>
-        <td class="component-image"><a href="/product/Hy97YJ/msi-b450-tomahawk-atx-am4-motherboard-b450-tomahawk" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/8ba566ff15c0bdf7435a68cc0e5152fa.256p.jpg" class=""></a></td>
+        <td class="component-image"><a href="/product/PgQG3C/gigabyte-b360m-ds3h-micro-atx-lga1151-motherboard-b360m-ds3h" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/51CbQdmpitL.jpg" class=""></a></td>
         <td class="component-name tl">
           <div>
             
-              <a href="/product/Hy97YJ/msi-b450-tomahawk-atx-am4-motherboard-b450-tomahawk">MSI - B450 TOMAHAWK ATX AM4 Motherboard</a>
+              <a href="/product/PgQG3C/gigabyte-b360m-ds3h-micro-atx-lga1151-motherboard-b360m-ds3h">Gigabyte - B360M DS3H Micro ATX LGA1151 Motherboard</a>
             
             
           </div>
@@ -681,7 +617,7 @@ $(document).ready(function(){
         </td>
        
         
-        <td class="tr nowrap"><a href="/mr/amazon/Hy97YJ" rel="nofollow" target="_blank">$105.10</a></td>
+        <td class="tr nowrap"><a href="/mr/amazon/PgQG3C" rel="nofollow" target="_blank">$68.48</a></td>
         <td class="tc nowrap"></td>
         <td class="tc nowrap">
           
@@ -692,16 +628,16 @@ $(document).ready(function(){
         </td>
         <td class="tr nowrap"></td>
         
-        <td class="tr price nowrap"><a href="/mr/amazon/Hy97YJ" rel="nofollow" target="_blank">$105.10</a></td>
+        <td class="tr price nowrap"><a href="/mr/amazon/PgQG3C" rel="nofollow" target="_blank">$68.48</a></td>
         
-        <td class="merchant"><a href="/mr/amazon/Hy97YJ" rel="nofollow" target="_blank">Amazon</a></td>
+        <td class="merchant"><a href="/mr/amazon/PgQG3C" rel="nofollow" target="_blank">Amazon</a></td>
         
        
         
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_2"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_0"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -709,13 +645,13 @@ $(document).ready(function(){
         
         <td class="nowrap">
           
-          <a href="/mr/amazon/Hy97YJ" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          <a href="/mr/amazon/PgQG3C" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
           
         </td>
         
         
         <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:187824}'); return false;"></a></div>
+          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:169160}'); return false;"></a></div>
         </td>
         
       </tr>
@@ -742,11 +678,11 @@ $(document).ready(function(){
       
       <tr class="">
         <td class="component-type tl"><a href="/products/memory/">Memory</a></td>
-        <td class="component-image"><a href="/product/qGqbt6/gskill-memory-f43200c16d16gvgb" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/515YvBSBNkL.jpg" class=""></a></td>
+        <td class="component-image"><a href="/product/n2hj4D/patriot-viper-elite-8gb-2-x-4gb-ddr4-2400-memory-pve48g240c5krd" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/41cUawnbMeL.jpg" class=""></a></td>
         <td class="component-name tl">
           <div>
             
-              <a href="/product/qGqbt6/gskill-memory-f43200c16d16gvgb">G.Skill - Ripjaws V Series 16GB (2 x 8GB) DDR4-3200 Memory</a>
+              <a href="/product/n2hj4D/patriot-viper-elite-8gb-2-x-4gb-ddr4-2400-memory-pve48g240c5krd">Patriot - Viper Elite 8GB (2 x 4GB) DDR4-2400 Memory</a>
             
             
           </div>
@@ -754,27 +690,27 @@ $(document).ready(function(){
         </td>
        
         
-        <td class="tr nowrap"><a href="/mr/amazon/qGqbt6" rel="nofollow" target="_blank">$152.81</a></td>
+        <td class="tr nowrap"><a href="/mr/amazon/n2hj4D" rel="nofollow" target="_blank">$64.99</a></td>
         <td class="tc nowrap"></td>
         <td class="tc nowrap">
           
             
-              $6.26
+              <a href="https://amazon.com/tryprimefree?tag=pcpp-prime-20"><img src="/static/forever/img/amazon-prime.png" alt="Free two-day shipping with Amazon Prime" class="amazon-prime" /></a>
             
           
         </td>
         <td class="tr nowrap"></td>
         
-        <td class="tr price nowrap"><a href="/mr/amazon/qGqbt6" rel="nofollow" target="_blank">$159.07</a></td>
+        <td class="tr price nowrap"><a href="/mr/amazon/n2hj4D" rel="nofollow" target="_blank">$64.99</a></td>
         
-        <td class="merchant"><a href="/mr/amazon/qGqbt6" rel="nofollow" target="_blank">Amazon</a></td>
+        <td class="merchant"><a href="/mr/amazon/n2hj4D" rel="nofollow" target="_blank">Amazon</a></td>
         
        
         
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_6"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_4"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -782,13 +718,13 @@ $(document).ready(function(){
         
         <td class="nowrap">
           
-          <a href="/mr/amazon/qGqbt6" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          <a href="/mr/amazon/n2hj4D" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
           
         </td>
         
         
         <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:51105}'); return false;"></a></div>
+          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:124827}'); return false;"></a></div>
         </td>
         
       </tr>
@@ -873,7 +809,7 @@ $(document).ready(function(){
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_5"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_3"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -938,13 +874,13 @@ $(document).ready(function(){
       <!-- item -->
 
       
-      <tr class="">
+      <tr class="last">
         <td class="component-type tl"><a href="/products/video-card/">Video Card</a></td>
-        <td class="component-image"><a href="/product/TTfmP6/msi-radeon-rx-580-8gb-armor-oc-video-card-rx-580-armor-8g-oc" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/d53db7190559b6287a4ff549f3bf5904.256p.jpg" class=""></a></td>
+        <td class="component-image"><a href="/product/tJyxFT/evga-geforce-gtx-1060-6gb-sc-gaming-video-card-06g-p4-6163-kr" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/51TZ0RXe7BL.jpg" class=""></a></td>
         <td class="component-name tl">
           <div>
             
-              <a href="/product/TTfmP6/msi-radeon-rx-580-8gb-armor-oc-video-card-rx-580-armor-8g-oc">MSI - Radeon RX 580 8GB ARMOR OC Video Card</a>
+              <a href="/product/tJyxFT/evga-geforce-gtx-1060-6gb-sc-gaming-video-card-06g-p4-6163-kr">EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</a>
             
             
           </div>
@@ -952,7 +888,7 @@ $(document).ready(function(){
         </td>
        
         
-        <td class="tr nowrap"><a href="/mr/amazon/TTfmP6" rel="nofollow" target="_blank">$224.99</a></td>
+        <td class="tr nowrap"><a href="/mr/amazon/tJyxFT" rel="nofollow" target="_blank">$259.99</a></td>
         <td class="tc nowrap"></td>
         <td class="tc nowrap">
           
@@ -963,16 +899,16 @@ $(document).ready(function(){
         </td>
         <td class="tr nowrap"></td>
         
-        <td class="tr price nowrap"><a href="/mr/amazon/TTfmP6" rel="nofollow" target="_blank">$224.99</a></td>
+        <td class="tr price nowrap"><a href="/mr/amazon/tJyxFT" rel="nofollow" target="_blank">$259.99</a></td>
         
-        <td class="merchant"><a href="/mr/amazon/TTfmP6" rel="nofollow" target="_blank">Amazon</a></td>
+        <td class="merchant"><a href="/mr/amazon/tJyxFT" rel="nofollow" target="_blank">Amazon</a></td>
         
        
         
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_4"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_2"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -980,13 +916,13 @@ $(document).ready(function(){
         
         <td class="nowrap">
           
-          <a href="/mr/amazon/TTfmP6" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          <a href="/mr/amazon/tJyxFT" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
           
         </td>
         
         
         <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:103578}'); return false;"></a></div>
+          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:53829}'); return false;"></a></div>
         </td>
         
       </tr>
@@ -1012,94 +948,20 @@ $(document).ready(function(){
       
 
       
-      <!-- add another -->
-
-      <tr class="last add-another">
-        <td colspan="2"></td>
-        
-        <td colspan="6"><a href="#" class="btn-mds pp_add_part_by_identifier"  data-part-identifier='{&quot;base_id&quot;:103578}'>Add Another Video Card For 2-Way CrossFire</a></td>
-        
-        <td colspan="4"></td>
-      </tr>
-
-      <!-- end add another -->
-      
 
       
 
       
+      <!-- choose -->
 
-      
-
-      
-    
-      
-      <!-- item -->
-
-      
       <tr class="last zebra">
         <td class="component-type tl"><a href="/products/case/">Case</a></td>
-        <td class="component-image"><a href="/product/tpVD4D/nzxt-h500-white-atx-mid-tower-case-ca-h500b-w1" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/799f8d60078adcd595c8d1b81a3fd99c.256p.jpg" class=""></a></td>
-        <td class="component-name tl">
-          <div>
-            
-              <a href="/product/tpVD4D/nzxt-h500-white-atx-mid-tower-case-ca-h500b-w1">NZXT - H500 (White) ATX Mid Tower Case</a>
-            
-            
-          </div>
-          
-        </td>
-       
-        
-        <td class="tr nowrap"><a href="/mr/amazon/tpVD4D" rel="nofollow" target="_blank">$68.65</a></td>
-        <td class="tc nowrap"></td>
-        <td class="tc nowrap">
-          
-            
-              <a href="https://amazon.com/tryprimefree?tag=pcpp-prime-20"><img src="/static/forever/img/amazon-prime.png" alt="Free two-day shipping with Amazon Prime" class="amazon-prime" /></a>
-            
-          
-        </td>
-        <td class="tr nowrap"></td>
-        
-        <td class="tr price nowrap"><a href="/mr/amazon/tpVD4D" rel="nofollow" target="_blank">$68.65</a></td>
-        
-        <td class="merchant"><a href="/mr/amazon/tpVD4D" rel="nofollow" target="_blank">Amazon</a></td>
-        
-       
-        
-        <td class="price-settings">
-          
-          
-          <a class="change-price" href="#change_price" id="change_price_0"><span class="no-custom-price"></span></a>
-          
-          
-        </td>
-        
-        
-        <td class="nowrap">
-          
-          <a href="/mr/amazon/tpVD4D" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
-          
-        </td>
-        
-        
-        <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:177627}'); return false;"></a></div>
-        </td>
-        
+        <td></td>
+        <td><a href="/products/case/" class="btn-mds">Choose A Case</a></td>
+        <td colspan="9"></td>
       </tr>
-      
 
-      <!-- end item -->
-      
-
-      
-
-      
-
-      
-
+      <!-- end choose -->
       
 
       
@@ -1112,11 +974,11 @@ $(document).ready(function(){
       
       <tr class="last">
         <td class="component-type tl"><a href="/products/power-supply/">Power Supply</a></td>
-        <td class="component-image"><a href="/product/sMM323/evga-supernova-g3-550w-80-gold-certified-fully-modular-atx-power-supply-220-g3-0550" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/1dd87da4186d59970d24232ebfd36278.256p.jpg" class=""></a></td>
+        <td class="component-image"><a href="/product/Q7L7YJ/corsair-cx-2017-450w-80-bronze-certified-atx-power-supply-cp-9020120-na" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/415gPKkYACL.jpg" class=""></a></td>
         <td class="component-name tl">
           <div>
             
-              <a href="/product/sMM323/evga-supernova-g3-550w-80-gold-certified-fully-modular-atx-power-supply-220-g3-0550">EVGA - SuperNOVA G3 550W 80+ Gold Certified Fully-Modular ATX Power Supply</a>
+              <a href="/product/Q7L7YJ/corsair-cx-2017-450w-80-bronze-certified-atx-power-supply-cp-9020120-na">Corsair - CX (2017) 450W 80+ Bronze Certified ATX Power Supply</a>
             
             
           </div>
@@ -1124,7 +986,7 @@ $(document).ready(function(){
         </td>
        
         
-        <td class="tr nowrap"><a href="/mr/amazon/sMM323" rel="nofollow" target="_blank">$69.99</a></td>
+        <td class="tr nowrap"><a href="/mr/amazon/Q7L7YJ" rel="nofollow" target="_blank">$45.00</a></td>
         <td class="tc nowrap"></td>
         <td class="tc nowrap">
           
@@ -1135,16 +997,16 @@ $(document).ready(function(){
         </td>
         <td class="tr nowrap"></td>
         
-        <td class="tr price nowrap"><a href="/mr/amazon/sMM323" rel="nofollow" target="_blank">$69.99</a></td>
+        <td class="tr price nowrap"><a href="/mr/amazon/Q7L7YJ" rel="nofollow" target="_blank">$45.00</a></td>
         
-        <td class="merchant"><a href="/mr/amazon/sMM323" rel="nofollow" target="_blank">Amazon</a></td>
+        <td class="merchant"><a href="/mr/amazon/Q7L7YJ" rel="nofollow" target="_blank">Amazon</a></td>
         
        
         
         <td class="price-settings">
           
           
-          <a class="change-price" href="#change_price" id="change_price_3"><span class="no-custom-price"></span></a>
+          <a class="change-price" href="#change_price" id="change_price_1"><span class="no-custom-price"></span></a>
           
           
         </td>
@@ -1152,13 +1014,13 @@ $(document).ready(function(){
         
         <td class="nowrap">
           
-          <a href="/mr/amazon/sMM323" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          <a href="/mr/amazon/Q7L7YJ" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
           
         </td>
         
         
         <td class="delete">
-          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:69893}'); return false;"></a></div>
+          <div><a href="#" onClick="pp_partlist_delete('{&quot;base_id&quot;:111220}'); return false;"></a></div>
         </td>
         
       </tr>
@@ -1321,11 +1183,11 @@ $(document).ready(function(){
         <td class="component-type tl">Expansion Cards / Networking</td>
         <td></td>
         <td colspan="10">
-          <div id="sg_16">
-            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_16').hide();$('#sgx_16').show();return false;">Add Expansion Cards / Networking ...</a></div>
+          <div id="sg_15">
+            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_15').hide();$('#sgx_15').show();return false;">Add Expansion Cards / Networking ...</a></div>
             <div> <a href="/products/sound-card/">Sound Cards</a>,  <a href="/products/wired-network-card/">Wired Network Adapters</a>,  <a href="/products/wireless-network-card/">Wireless Network Adapters</a></div>
           </div>
-          <div id="sgx_16" style="display:none;">
+          <div id="sgx_15" style="display:none;">
             
             <div><a href="/products/sound-card/" class="btn-mds">Choose A Sound Card</a></div>
             
@@ -1359,11 +1221,11 @@ $(document).ready(function(){
         <td class="component-type tl">Peripherals</td>
         <td></td>
         <td colspan="10">
-          <div id="sg_17">
-            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_17').hide();$('#sgx_17').show();return false;">Add Peripherals ...</a></div>
+          <div id="sg_16">
+            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_16').hide();$('#sgx_16').show();return false;">Add Peripherals ...</a></div>
             <div> <a href="/products/headphones/">Headphones</a>,  <a href="/products/keyboard/">Keyboards</a>,  <a href="/products/mouse/">Mice</a>,  <a href="/products/speakers/">Speakers</a></div>
           </div>
-          <div id="sgx_17" style="display:none;">
+          <div id="sgx_16" style="display:none;">
             
             <div><a href="/products/headphones/" class="btn-mds">Choose Headphones</a></div>
             
@@ -1399,11 +1261,11 @@ $(document).ready(function(){
         <td class="component-type tl">Accessories / Other</td>
         <td></td>
         <td colspan="10">
-          <div id="sg_18">
-            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_18').hide();$('#sgx_18').show();return false;">Add Accessories / Other ...</a></div>
+          <div id="sg_17">
+            <div><a id="add_peripherals" href="#peripherals" class="btn-mds" onClick="$('#sg_17').hide();$('#sgx_17').show();return false;">Add Accessories / Other ...</a></div>
             <div> <a href="/products/case-fan/">Case Fans</a>,  <a href="/products/fan-controller/">Fan Controllers</a>,  <a href="/products/thermal-paste/">Thermal Compound</a>,  <a href="/products/ups/">UPS Systems</a></div>
           </div>
-          <div id="sgx_18" style="display:none;">
+          <div id="sgx_17" style="display:none;">
             
             <div><a href="/products/case-fan/" class="btn-mds">Choose A Case Fan</a></div>
             
@@ -1422,12 +1284,83 @@ $(document).ready(function(){
 
       
     
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <!-- user provided product -->
+
+      <tr class="zebra" id="upp_tr_18">
+        <td class="component-type tl">
+          
+            
+            Custom
+            
+          
+        </td>
+        <td></td>
+        <td>
+          
+            
+              Case
+            
+          
+        </td>
+        
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+        <td class="tr nowrap">
+          
+          
+            $50.00
+          
+          
+        </td>
+        
+        
+        <td></td>
+        
+        
+        
+        <td></td>
+        
+        
+        <td>
+          
+          <div><a id="custom_edit_5272436" href="#" class="edit-custom">Edit</a></div>
+          
+        </td>
+        
+        
+        <td  class="delete">
+          <form id="fdu_5272436" action="/qapi/partlist/delete_custom/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='RvdJopQZlrMMUAXt1x2ygr6FrVPimYSLYb7eRBdjlNA76VTAOyp88YEHdg0ycBU5' /><input type="hidden" name="upp_id" value="5272436"></form>
+          <div><a id="du_5272436" href="#" class="delete-custom btn-mds"></a></div>
+        </td>
+        
+      </tr>
+      
+
+      <!-- end user provided product -->
+      
+    
 
 
       <tr class="last">
-        <td class="component-type tl">Custom</td>
+        <td class="component-type tl"></td>
         <td></td>
-        <td><a id="add_custom" href="#other" class="btn-mds">Add Custom Part</a></td>
+        <td><a id="add_custom" href="#other" class="btn-mds">Add Another Custom Part</a></td>
         <td colspan="9"></td>
       </tr>
 
@@ -1435,43 +1368,9 @@ $(document).ready(function(){
 
             
             
-            <tr class=" part-list-totals">
-              <td colspan="7">Base Total:</td>
-              <td  class="tr nowrap">$1072.41</td>
-              
-              <td></td>
-              
-              
-              <td></td>
-              
-              
-              <td></td>
-              
-              <td></td>
-            </tr>
-            
-            
-            
-            <tr class=" part-list-totals">
-              <td colspan="7">Shipping:</td>
-              <td  class="tr nowrap">$6.26</td>
-              
-              <td></td>
-              
-              
-              <td></td>
-              
-              
-              <td></td>
-              
-              <td></td>
-            </tr>
-            
-            
-            
             <tr class="total-price part-list-totals">
               <td colspan="7">Total:</td>
-              <td  class="tr nowrap">$1078.67</td>
+              <td  class="tr nowrap">$768.32</td>
               
               <td></td>
               
@@ -1499,18 +1398,6 @@ $(document).ready(function(){
 </div>
 
 
-
-        <div class="block" id="incompatibilities">
-          <h2 id="problems">Compatibility Notes</h2>
-          <ul>
-            
-            <li class="info-message">The Corsair - H100i v2 70.7 CFM Liquid CPU Cooler may require a separately available mounting adapter to fit the MSI - B450 TOMAHAWK ATX AM4 Motherboard.</li>
-            
-            
-            <li><a href="#flag_incorrect" class="flag-incompatibility note">Flag compatibility notes as incorrect</a></li>
-            
-          </ul>
-        </div>
 
 
 
@@ -1563,30 +1450,23 @@ $(document).ready(function(){
       <tbody>
         
         <tr>
-          <td>AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</td>
+          <td>Intel - Core i5-8600 3.1GHz 6-Core Processor</td>
           
-          <td class="tc">13W - 105W</td>
-          
-        </tr>
-        
-        <tr>
-          <td>Corsair - H100i v2 70.7 CFM Liquid CPU Cooler</td>
-          
-          <td class="tc">10W - 15W</td>
+          <td class="tc">8W - 65W</td>
           
         </tr>
         
         <tr>
-          <td>MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td>Gigabyte - B360M DS3H Micro ATX LGA1151 Motherboard</td>
           
-          <td class="tc">17W - 70W</td>
+          <td class="tc">15W - 60W</td>
           
         </tr>
         
         <tr>
-          <td>G.Skill - Ripjaws V Series 16GB (2 x 8GB) DDR4-3200 Memory</td>
+          <td>Patriot - Viper Elite 8GB (2 x 4GB) DDR4-2400 Memory</td>
           
-          <td class="tc">14W - 14W</td>
+          <td class="tc">5W - 5W</td>
           
         </tr>
         
@@ -1598,9 +1478,9 @@ $(document).ready(function(){
         </tr>
         
         <tr>
-          <td>MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td>EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</td>
           
-          <td class="tc">46W - 185W</td>
+          <td class="tc">30W - 120W</td>
           
         </tr>
         
@@ -1610,7 +1490,7 @@ $(document).ready(function(){
         <tr>
           <td>Total:</td>
           
-          <td class="tc">104W - 409W</td>
+          <td class="tc">62W - 270W</td>
           
         </tr>
       </tfoot>
@@ -1653,771 +1533,771 @@ $(document).ready(function(){
       <tbody>
         
         <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>Added Intel - Core i5-8600 3.1GHz 6-Core Processor</td>
+          <td><a href="/list/rf8TD2">/list/rf8TD2</a></td>
           <td>just now</td>
         </tr>
         
         <tr>
-          <td>Added Corsair - CXM 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
-          <td><a href="/list/n8JLq4">/list/n8JLq4</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for Corsair - CX (2017) 450W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/svV3Bb">/list/svV3Bb</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</td>
-          <td><a href="/list/VDcXdX">/list/VDcXdX</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</td>
+          <td><a href="/list/MXH9Bb">/list/MXH9Bb</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/ZQZRHh">/list/ZQZRHh</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/NYrxNQ">/list/NYrxNQ</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added G.Skill - Ripjaws V Series 8GB (2 x 4GB) DDR4-2666 Memory</td>
-          <td><a href="/list/6KPfxG">/list/6KPfxG</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for Patriot - Viper Elite 8GB (2 x 4GB) DDR4-2400 Memory</td>
+          <td><a href="/list/JgLrLJ">/list/JgLrLJ</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
-          <td><a href="/list/rdG2bX">/list/rdG2bX</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for Gigabyte - B360M DS3H Micro ATX LGA1151 Motherboard</td>
+          <td><a href="/list/dr7Yhy">/list/dr7Yhy</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added Cooler Master - Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler</td>
-          <td><a href="/list/cnDskd">/list/cnDskd</a></td>
-          <td>3 hours ago</td>
+          <td>Removed Intel - Core i5-8400 2.8GHz 6-Core Processor</td>
+          <td><a href="/list/c4CmBb">/list/c4CmBb</a></td>
+          <td>a minute ago</td>
         </tr>
         
         <tr>
-          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/pGPTCb">/list/pGPTCb</a></td>
-          <td>3 hours ago</td>
+          <td>Set custom price for Intel - Core i5-8400 2.8GHz 6-Core Processor</td>
+          <td><a href="/list/V4CmBb">/list/V4CmBb</a></td>
+          <td>2 minutes ago</td>
         </tr>
         
         <tr>
-          <td>Removed all parts</td>
-          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
-          <td>3 hours ago</td>
+          <td>Set custom price for Intel - Core i5-8400 2.8GHz 6-Core Processor</td>
+          <td><a href="/list/KXH9Bb">/list/KXH9Bb</a></td>
+          <td>2 minutes ago</td>
         </tr>
         
         <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>3 hours ago</td>
+          <td>Set custom price for Intel - Core i5-8400 2.8GHz 6-Core Processor</td>
+          <td><a href="/list/mD8TD2">/list/mD8TD2</a></td>
+          <td>2 minutes ago</td>
         </tr>
         
         <tr>
-          <td>Removed custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
-          <td><a href="/list/MQynMZ">/list/MQynMZ</a></td>
-          <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/qJw4w6">/list/qJw4w6</a></td>
-          <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/LxfTV6">/list/LxfTV6</a></td>
-          <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
-          <td><a href="/list/tBv9XP">/list/tBv9XP</a></td>
-          <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for MSI - B350 PC MATE ATX AM4 Motherboard</td>
-          <td><a href="/list/ffpPhy">/list/ffpPhy</a></td>
-          <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/tbpPhy">/list/tbpPhy</a></td>
-          <td>3 hours ago</td>
+          <td>Removed custom price for Intel - Core i5-8400 2.8GHz 6-Core Processor</td>
+          <td><a href="/list/zyfrLJ">/list/zyfrLJ</a></td>
+          <td>2 minutes ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
-          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td><a href="/list/ZMVWcY">/list/ZMVWcY</a></td>
+          <td>3 minutes ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
+          <td><a href="/list/7RRN9J">/list/7RRN9J</a></td>
           <td>3 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>7 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
-          <td><a href="/list/MQynMZ">/list/MQynMZ</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/qJw4w6">/list/qJw4w6</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/LxfTV6">/list/LxfTV6</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
-          <td><a href="/list/tBv9XP">/list/tBv9XP</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for MSI - B350 PC MATE ATX AM4 Motherboard</td>
-          <td><a href="/list/ffpPhy">/list/ffpPhy</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/tbpPhy">/list/tbpPhy</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>17 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>22 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>22 hours ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>2 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added G.Skill - Ripjaws V Series 16GB (2 x 8GB) DDR4-3200 Memory</td>
-          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed G.Skill - Trident Z RGB 16GB (2 x 8GB) DDR4-3200 Memory</td>
-          <td><a href="/list/dsGDfH">/list/dsGDfH</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</td>
-          <td><a href="/list/VMksP3">/list/VMksP3</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/8fbDfH">/list/8fbDfH</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added EVGA - SuperNOVA G3 550W 80+ Gold Certified Fully-Modular ATX Power Supply</td>
-          <td><a href="/list/ZNCkRJ">/list/ZNCkRJ</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added NZXT - H500 (White) ATX Mid Tower Case</td>
-          <td><a href="/list/kYjCq4">/list/kYjCq4</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/bJrXdX">/list/bJrXdX</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/HLj6mq">/list/HLj6mq</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added G.Skill - Trident Z RGB 16GB (2 x 8GB) DDR4-3200 Memory</td>
-          <td><a href="/list/FpDJpG">/list/FpDJpG</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
-          <td><a href="/list/N6qwkd">/list/N6qwkd</a></td>
-          <td>3 days ago</td>
         </tr>
         
         <tr>
           <td>Added Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
-          <td><a href="/list/cNyn8Y">/list/cNyn8Y</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
-          <td><a href="/list/N6qwkd">/list/N6qwkd</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Corsair - H100i v2 70.7 CFM Liquid CPU Cooler</td>
-          <td><a href="/list/dvPTCb">/list/dvPTCb</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/pGPTCb">/list/pGPTCb</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed all parts</td>
-          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
-          <td>3 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/c8NY8Y">/list/c8NY8Y</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/6JrqV6">/list/6JrqV6</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/tZYRMZ">/list/tZYRMZ</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/BCYRMZ">/list/BCYRMZ</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/WpcgKB">/list/WpcgKB</a></td>
-          <td>5 days ago</td>
+          <td><a href="/list/XbryZR">/list/XbryZR</a></td>
+          <td>3 hours ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
-          <td><a href="/list/b6HqV6">/list/b6HqV6</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
-          <td><a href="/list/b6HqV6">/list/b6HqV6</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
-          <td><a href="/list/ffbRMZ">/list/ffbRMZ</a></td>
-          <td>5 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
-          <td><a href="/list/tbMM29">/list/tbMM29</a></td>
-          <td>5 days ago</td>
+          <td><a href="/list/WrJsP3">/list/WrJsP3</a></td>
+          <td>3 hours ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
-          <td><a href="/list/vnDQMZ">/list/vnDQMZ</a></td>
-          <td>5 days ago</td>
+          <td><a href="/list/WrJsP3">/list/WrJsP3</a></td>
+          <td>8 hours ago</td>
         </tr>
         
         <tr>
-          <td>Set custom price for MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
-          <td><a href="/list/vnDQMZ">/list/vnDQMZ</a></td>
-          <td>5 days ago</td>
+          <td>Switch part list</td>
+          <td><a href="/list/WrJsP3">/list/WrJsP3</a></td>
+          <td>a day ago</td>
         </tr>
         
         <tr>
-          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
-          <td><a href="/list/ybP8yX">/list/ybP8yX</a></td>
-          <td>5 days ago</td>
+          <td>Added Corsair - CX (2017) 550W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/WrJsP3">/list/WrJsP3</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/n6cdtg">/list/n6cdtg</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/KpxyZR">/list/KpxyZR</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/mrJsP3">/list/mrJsP3</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/nLVsP3">/list/nLVsP3</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
+          <td><a href="/list/JbnWjy">/list/JbnWjy</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/RkGWjy">/list/RkGWjy</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Gigabyte - B450M DS3H Micro ATX AM4 Motherboard</td>
+          <td><a href="/list/Ftm4w6">/list/Ftm4w6</a></td>
+          <td>a day ago</td>
         </tr>
         
         <tr>
           <td>Removed MSI - B350 PC MATE ATX AM4 Motherboard</td>
           <td><a href="/list/m4Ldtg">/list/m4Ldtg</a></td>
-          <td>5 days ago</td>
+          <td>a day ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
           <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/4vdTpG">/list/4vdTpG</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Kingston - A400 240GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/WrWWjy">/list/WrWWjy</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Toshiba - OCZ TR200 240GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/Jyyvvn">/list/Jyyvvn</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/ZxtwHh">/list/ZxtwHh</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Corsair - CX (2017) 550W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/q6yvvn">/list/q6yvvn</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Corsair - CXM 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
+          <td><a href="/list/Xw8Lq4">/list/Xw8Lq4</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Corsair - CXM 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
+          <td><a href="/list/R7yvvn">/list/R7yvvn</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/Xw8Lq4">/list/Xw8Lq4</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed MSI - Radeon RX 570 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/VfHmRJ">/list/VfHmRJ</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - Radeon RX 570 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/jsZbGG">/list/jsZbGG</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Toshiba - OCZ TR200 240GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/VfHmRJ">/list/VfHmRJ</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added G.Skill - Ripjaws V Series 16GB (2 x 8GB) DDR4-3200 Memory</td>
+          <td><a href="/list/RMvfnH">/list/RMvfnH</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td><a href="/list/rdG2bX">/list/rdG2bX</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Cooler Master - Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler</td>
+          <td><a href="/list/cnDskd">/list/cnDskd</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/pGPTCb">/list/pGPTCb</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed all parts</td>
+          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
+          <td>a day ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Corsair - CXM 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
+          <td><a href="/list/n8JLq4">/list/n8JLq4</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</td>
+          <td><a href="/list/VDcXdX">/list/VDcXdX</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/ZQZRHh">/list/ZQZRHh</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added G.Skill - Ripjaws V Series 8GB (2 x 4GB) DDR4-2666 Memory</td>
+          <td><a href="/list/6KPfxG">/list/6KPfxG</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td><a href="/list/rdG2bX">/list/rdG2bX</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Cooler Master - Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler</td>
+          <td><a href="/list/cnDskd">/list/cnDskd</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/pGPTCb">/list/pGPTCb</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed all parts</td>
+          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/MQynMZ">/list/MQynMZ</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/qJw4w6">/list/qJw4w6</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/LxfTV6">/list/LxfTV6</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
+          <td><a href="/list/tBv9XP">/list/tBv9XP</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for MSI - B350 PC MATE ATX AM4 Motherboard</td>
+          <td><a href="/list/ffpPhy">/list/ffpPhy</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/tbpPhy">/list/tbpPhy</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>3 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
+          <td><a href="/list/MQynMZ">/list/MQynMZ</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/qJw4w6">/list/qJw4w6</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/LxfTV6">/list/LxfTV6</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
+          <td><a href="/list/tBv9XP">/list/tBv9XP</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for MSI - B350 PC MATE ATX AM4 Motherboard</td>
+          <td><a href="/list/ffpPhy">/list/ffpPhy</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/tbpPhy">/list/tbpPhy</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
+          <td>4 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
           <td>5 days ago</td>
         </tr>
         
         <tr>
-          <td>Set custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>Switch part list</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Added Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/GTQGtg">/list/GTQGtg</a></td>
+          <td>Added G.Skill - Ripjaws V Series 16GB (2 x 8GB) DDR4-3200 Memory</td>
+          <td><a href="/list/tVppWD">/list/tVppWD</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Removed Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/NPZFpG">/list/NPZFpG</a></td>
+          <td>Removed G.Skill - Trident Z RGB 16GB (2 x 8GB) DDR4-3200 Memory</td>
+          <td><a href="/list/dsGDfH">/list/dsGDfH</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/3Jc4w6">/list/3Jc4w6</a></td>
+          <td>Added AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</td>
+          <td><a href="/list/VMksP3">/list/VMksP3</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Removed Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/NPZFpG">/list/NPZFpG</a></td>
+          <td>Removed AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/8fbDfH">/list/8fbDfH</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/pmw7nH">/list/pmw7nH</a></td>
+          <td>Added EVGA - SuperNOVA G3 550W 80+ Gold Certified Fully-Modular ATX Power Supply</td>
+          <td><a href="/list/ZNCkRJ">/list/ZNCkRJ</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
-          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/QdZFpG">/list/QdZFpG</a></td>
+          <td>Added NZXT - H500 (White) ATX Mid Tower Case</td>
+          <td><a href="/list/kYjCq4">/list/kYjCq4</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
+          <td><a href="/list/bJrXdX">/list/bJrXdX</a></td>
           <td>6 days ago</td>
         </tr>
         
         <tr>
           <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/d9kjsZ">/list/d9kjsZ</a></td>
+          <td><a href="/list/HLj6mq">/list/HLj6mq</a></td>
           <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added G.Skill - Trident Z RGB 16GB (2 x 8GB) DDR4-3200 Memory</td>
+          <td><a href="/list/FpDJpG">/list/FpDJpG</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
+          <td><a href="/list/N6qwkd">/list/N6qwkd</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
+          <td><a href="/list/cNyn8Y">/list/cNyn8Y</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td><a href="/list/N6qwkd">/list/N6qwkd</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Corsair - H100i v2 70.7 CFM Liquid CPU Cooler</td>
+          <td><a href="/list/dvPTCb">/list/dvPTCb</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
+          <td><a href="/list/pGPTCb">/list/pGPTCb</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed all parts</td>
+          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
+          <td>6 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/c8NY8Y">/list/c8NY8Y</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/6JrqV6">/list/6JrqV6</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/tZYRMZ">/list/tZYRMZ</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/BCYRMZ">/list/BCYRMZ</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/WpcgKB">/list/WpcgKB</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/b6HqV6">/list/b6HqV6</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
+          <td><a href="/list/b6HqV6">/list/b6HqV6</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
+          <td><a href="/list/ffbRMZ">/list/ffbRMZ</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added BenQ - GL2580H 24.5&quot; 1920x1080 60Hz Monitor</td>
+          <td><a href="/list/tbMM29">/list/tbMM29</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/vnDQMZ">/list/vnDQMZ</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td><a href="/list/vnDQMZ">/list/vnDQMZ</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added MSI - B450 TOMAHAWK ATX AM4 Motherboard</td>
+          <td><a href="/list/ybP8yX">/list/ybP8yX</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed MSI - B350 PC MATE ATX AM4 Motherboard</td>
+          <td><a href="/list/m4Ldtg">/list/m4Ldtg</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Switch part list</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>8 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/qZNvvn">/list/qZNvvn</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/GTQGtg">/list/GTQGtg</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/NPZFpG">/list/NPZFpG</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
+          <td><a href="/list/3Jc4w6">/list/3Jc4w6</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Removed Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/NPZFpG">/list/NPZFpG</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/pmw7nH">/list/pmw7nH</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Set custom price for Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/QdZFpG">/list/QdZFpG</a></td>
+          <td>9 days ago</td>
+        </tr>
+        
+        <tr>
+          <td>Added Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          <td><a href="/list/d9kjsZ">/list/d9kjsZ</a></td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Removed Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
           <td><a href="/list/NPZFpG">/list/NPZFpG</a></td>
-          <td>6 days ago</td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for MSI - B350 PC MATE ATX AM4 Motherboard</td>
           <td><a href="/list/9G97nH">/list/9G97nH</a></td>
-          <td>6 days ago</td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Added MSI - B350 PC MATE ATX AM4 Motherboard</td>
           <td><a href="/list/Twdxkd">/list/Twdxkd</a></td>
-          <td>6 days ago</td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Removed Gigabyte - GA-AB350M-DS3H Micro ATX AM4 Motherboard</td>
           <td><a href="/list/bnzkRJ">/list/bnzkRJ</a></td>
-          <td>6 days ago</td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
           <td><a href="/list/8xHYw6">/list/8xHYw6</a></td>
-          <td>6 days ago</td>
+          <td>9 days ago</td>
         </tr>
         
         <tr>
           <td>Added EVGA - 500W 80+ Certified ATX Power Supply</td>
           <td><a href="/list/H7x6P3">/list/H7x6P3</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Removed EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
           <td><a href="/list/KqvWjy">/list/KqvWjy</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
           <td><a href="/list/zQHB7W">/list/zQHB7W</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
           <td><a href="/list/nbPnMZ">/list/nbPnMZ</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for EVGA - 500W 80+ Bronze Certified ATX Power Supply</td>
           <td><a href="/list/zQHB7W">/list/zQHB7W</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
           <td><a href="/list/X8tpWD">/list/X8tpWD</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
           <td><a href="/list/2Pp8yX">/list/2Pp8yX</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
           <td><a href="/list/NMWbGG">/list/NMWbGG</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for Gigabyte - GA-AB350M-DS3H Micro ATX AM4 Motherboard</td>
           <td><a href="/list/XcDxkd">/list/XcDxkd</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Set custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
           <td><a href="/list/rFDxkd">/list/rFDxkd</a></td>
-          <td>8 days ago</td>
+          <td>11 days ago</td>
         </tr>
         
         <tr>
           <td>Switch part list</td>
           <td><a href="/list/8xHYw6">/list/8xHYw6</a></td>
-          <td>8 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/8xHYw6">/list/8xHYw6</a></td>
-          <td>8 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/8xHYw6">/list/8xHYw6</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Western Digital - Caviar Blue 1TB 3.5&quot; 7200RPM Internal Hard Drive</td>
-          <td><a href="/list/Nshnw6">/list/Nshnw6</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Samsung - 860 Evo 500GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/kqRjLJ">/list/kqRjLJ</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Samsung - 970 Evo 250GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/mL9hBb">/list/mL9hBb</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/7mr2TB">/list/7mr2TB</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed all parts</td>
-          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/WfyssZ">/list/WfyssZ</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/Z28WP3">/list/Z28WP3</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Samsung - 970 Evo 250GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/mL9hBb">/list/mL9hBb</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/7mr2TB">/list/7mr2TB</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Edited custom part Case</td>
-          <td><a href="/list/7mr2TB">/list/7mr2TB</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Samsung - 970 Evo 250GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/vPXCtg">/list/vPXCtg</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/6C63dX">/list/6C63dX</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Samsung - 970 Evo 250GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/tv3VCb">/list/tv3VCb</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/Py4RHh">/list/Py4RHh</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Edited custom part Case</td>
-          <td><a href="/list/Py4RHh">/list/Py4RHh</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Switch part list</td>
-          <td><a href="/list/8DmzWD">/list/8DmzWD</a></td>
-          <td>10 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/ZNDGHh">/list/ZNDGHh</a></td>
           <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Gigabyte - X470 AORUS ULTRA GAMING ATX AM4 Motherboard</td>
-          <td><a href="/list/FVHdgw">/list/FVHdgw</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</td>
-          <td><a href="/list/XQgk8Y">/list/XQgk8Y</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Cooler Master - MasterWatt 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
-          <td><a href="/list/TghVCb">/list/TghVCb</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Cooler Master - MasterWatt 550W 80+ Bronze Certified Semi-Modular ATX Power Supply</td>
-          <td><a href="/list/KLYM6s">/list/KLYM6s</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added custom part Case</td>
-          <td><a href="/list/FrLzWD">/list/FrLzWD</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/8CKWP3">/list/8CKWP3</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for ADATA - XPG SX6000 128GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/nCKWP3">/list/nCKWP3</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added ADATA - XPG SX6000 128GB M.2-2280 Solid State Drive</td>
-          <td><a href="/list/QhT6mq">/list/QhT6mq</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
-          <td><a href="/list/xVHdgw">/list/xVHdgw</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory</td>
-          <td><a href="/list/dsqXbX">/list/dsqXbX</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Gigabyte - X470 AORUS ULTRA GAMING ATX AM4 Motherboard</td>
-          <td><a href="/list/pJCWbX">/list/pJCWbX</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added AMD - Ryzen 7 2700X 3.7GHz 8-Core Processor</td>
-          <td><a href="/list/XXydmq">/list/XXydmq</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed all parts</td>
-          <td><a href="/list/sF8TwP">/list/sF8TwP</a></td>
-          <td>11 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/8DmzWD">/list/8DmzWD</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added Samsung - 860 Evo 250GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/kY2DMZ">/list/kY2DMZ</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed Kingston - A400 120GB 2.5&quot; Solid State Drive</td>
-          <td><a href="/list/GNBRHh">/list/GNBRHh</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/6LbYw6">/list/6LbYw6</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/FHnVCb">/list/FHnVCb</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added MSI - Radeon RX 580 8GB ARMOR OC Video Card</td>
-          <td><a href="/list/xHnVCb">/list/xHnVCb</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed EVGA - GeForce GTX 1060 6GB 6GB SC GAMING Video Card</td>
-          <td><a href="/list/QZqfkd">/list/QZqfkd</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/M9nVCb">/list/M9nVCb</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Added AMD - Ryzen 5 2600 3.4GHz 6-Core Processor</td>
-          <td><a href="/list/7QwbdX">/list/7QwbdX</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Removed AMD - Ryzen 5 1600 3.2GHz 6-Core Processor</td>
-          <td><a href="/list/MsMHr6">/list/MsMHr6</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for AMD - Ryzen 5 1600 3.2GHz 6-Core Processor</td>
-          <td><a href="/list/ZpDvmq">/list/ZpDvmq</a></td>
-          <td>14 days ago</td>
-        </tr>
-        
-        <tr>
-          <td>Set custom price for Corsair - Vengeance LPX 8GB (2 x 4GB) DDR4-2666 Memory</td>
-          <td><a href="/list/ngZmWD">/list/ngZmWD</a></td>
-          <td>14 days ago</td>
         </tr>
         
       </tbody>
@@ -2471,7 +2351,7 @@ $(document).ready(function(){
 
     <div id="upp_dialog_manual_entry_form">
         <form action="/qapi/partlist/edit_custom/" method="post">
-            <input type='hidden' name='csrfmiddlewaretoken' value='EYI4Kh9h7AryskykUSSe3CAUxVxOjEyDLECzdtwB7WfTEFurHTfOV98WjgI49hAX' />
+            <input type='hidden' name='csrfmiddlewaretoken' value='RvdJopQZlrMMUAXt1x2ygr6FrVPimYSLYb7eRBdjlNA76VTAOyp88YEHdg0ycBU5' />
             <input id="add_custom_id" type="hidden" name="upp_id" value="0"/>
             <ul>
                 <li>
@@ -2553,7 +2433,7 @@ $(document).ready(function(){
 <div class='hidden-dialog'>
   <div id="price_dialog">
     <div>
-      <form action="/qapi/partlist/edit_price/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='EYI4Kh9h7AryskykUSSe3CAUxVxOjEyDLECzdtwB7WfTEFurHTfOV98WjgI49hAX' />
+      <form action="/qapi/partlist/edit_price/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='RvdJopQZlrMMUAXt1x2ygr6FrVPimYSLYb7eRBdjlNA76VTAOyp88YEHdg0ycBU5' />
         <input id="change_price_identifier" type="hidden" name="identifier" value=""/>
         <div>
           <ul id="change_price_select">
@@ -2801,3 +2681,4 @@ $(document).ready(function(){
     });
   </script>
 </html>
+
