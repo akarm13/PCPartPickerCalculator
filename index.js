@@ -8,10 +8,6 @@ const colors = require('colors/safe');
 const partsHtml = fs.readFileSync(path, 'utf8', (err, contents) => contents.trim())
 
 
-// let $ = cheerio.load(partsHtml);
-
-// let a = $('.manual-zebra tbody').find('tr .price.nowrap').siblings('.component-name.tl').text().trim();
-// console.log(a);
 function parseLinks(html) {
   let $ = cheerio.load(html);
 
@@ -109,6 +105,6 @@ compose(partsHtml).then(parts => {
   });
 
   let shippingCostTxt = colors.cyan('Your total shipping cost is: ');
-  let priceTxt = colors.magenta(`$${colors.magenta(Math.ceil(total))}`);
+  let priceTxt = colors.magenta(`$${Math.ceil(total)}`);
   console.log(shippingCostTxt + priceTxt);
 });
