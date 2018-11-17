@@ -94,7 +94,7 @@ compose(partsHtml).then(parts => {
     if(part.weight.unit === 'ounces') {
       totalCost = part.price + 7;
     } else {
-      totalCost = (part.weight.number * 4) + part.price;
+      totalCost = (part.weight.number * 7) + part.price;
     }
     total = totalCost + total;
   });
