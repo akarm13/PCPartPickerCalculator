@@ -1,9 +1,9 @@
 'use strict';
 const cheerio = require('cheerio');
-const rp = require('request-promise');
 const fs = require('fs');
 const path = process.argv[2];
 const colors = require('colors/safe');
+const axios = require('axios');
 
 const partsHtml = fs.readFileSync(path, 'utf8', (err, contents) => contents.trim())
 
@@ -35,14 +35,9 @@ function parsePrices(html) {
 }
 
 async function getWeight(url) {
-  const options = {
-    url,
-    transform: (body) => {
-      return cheerio.load(body);
-    }
-  };
+  let response = await axios.get(url);
 
-  let $ = await rp(options);
+  let $ = cheerio.load(response.data);
   let weight = $('body')
   .find(`.a-color-secondary.a-size-base.prodDetSectionEntry:contains(Shipping Weight)`)
   .siblings().first().html().trim().split(' ').slice(0, 2);
@@ -99,7 +94,7 @@ compose(partsHtml).then(parts => {
     if(part.weight.unit === 'ounces') {
       totalCost = part.price + 7;
     } else {
-      totalCost = (part.weight.number * 7) + part.price;
+      totalCost = (part.weight.number * 4) + part.price;
     }
     total = totalCost + total;
   });
@@ -107,4 +102,4 @@ compose(partsHtml).then(parts => {
   let shippingCostTxt = colors.cyan('Your total shipping cost is: ');
   let priceTxt = colors.magenta(`$${Math.ceil(total)}`);
   console.log(shippingCostTxt + priceTxt);
-});
+}).catch(err => console.log(err));
