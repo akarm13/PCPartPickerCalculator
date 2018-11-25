@@ -8,6 +8,18 @@ const axios = require('axios');
 const partsHtml = fs.readFileSync(path, 'utf8', (err, contents) => contents.trim())
 
 
+// To prevent Amazon from detecting us as a bot, we need to use a random User Agent every time the script is ran.
+const userAgents = [
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',
+  'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0'
+];
+
+// Randomly pick a User Agent from the array and set it as the User-Agent header.
+axios.defaults.headers.common['User-Agent'] = userAgents[Math.floor(Math.random() * userAgents.length)];
+
+
 function parseLinks(html) {
   let $ = cheerio.load(html);
 
