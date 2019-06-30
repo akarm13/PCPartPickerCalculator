@@ -24,7 +24,7 @@ function parseLinks(html) {
   let $ = cheerio.load(html);
 
   // The links are located in here.
-  let links = $('.manual-zebra tbody').find('tr .price.nowrap a');
+  let links = $('.partlist__wrapper').find('.td__price a');
   let hrefs = [];
 
   // Compose the urls
@@ -39,7 +39,7 @@ function parsePrices(html) {
   let $ = cheerio.load(html);
 
   // Remove the dollar sign so we can parse them to numbers.
-  let prices = $('.tr.price.nowrap a').text().trim().split('$');
+  let prices = $('.partlist__wrapper').find('.td__price a').text().trim().split('$');
 
   // Remove the blank element at the beginning, since we split it
   // by the $ sign, and then convert the strings to numbers.
